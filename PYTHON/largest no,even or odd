@@ -1,0 +1,41 @@
+#FIND THE LARGEST NUMBER
+a=int(input("enter 1st number"))
+b=int(input("enter 2nd number"))
+
+if a>b:
+    print("this is largest",a)
+
+else:
+    print("this is laegest number",b)
+
+    #CHECKING EVEN OR ODD
+
+    num=int(input("enter a number"))
+    if num%2==0:
+        print("this is even number")
+    else:
+        print("this is odd number")
+
+    
+    #LEAP YEAR CHECKER
+
+    year=int(input("enter a year:"))
+
+    if(year %4 ==0 and year% 100!=0)
+    or (year %400 ==0):
+print("it is a leap year")
+else:
+print("it is not  leap year")
+
+#GRADING MARKS
+marks=int(input("enter your marks:"))
+
+if(marks >=90 and marks<100):
+
+    grade="A"
+
+elif(marks >=80 and marks<90): ...
+elif(marks>=70 and marks<80):
+    grade="D"
+
+    print(" grade of the students->",grade)
